@@ -45,7 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\SGCredentials.cs" />
-    <Compile Include="Functions\NewSGCredentialsCmdlet.cs" />
+    <Compile Include="Classes\SGObject.cs" />
+    <Compile Include="Cmdlets\NewSGCredentials.cs" />
+    <Compile Include="Helper\Base64Encoding.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
